@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F0F0F0;
+}
+
+.container {
+    padding: 20px 40px;
+    margin: 20px 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+    margin: 10px 0px;
+}

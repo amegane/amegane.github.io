@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+}
+.title {
+    text-align: left;
+}
+#my_icon {
+    width: 10%;
+    vertical-align: middle;
+}
+#my_name {
+    color: #4B4B4B;
+    vertical-align: middle;
+}
+.icon_twitter {
+    color: #55acee;
+}
+#icon_google_play {
+    width: 30%;
+    height: auto;
+}
+#memory_graphic{
+    width: 50%;
+}
