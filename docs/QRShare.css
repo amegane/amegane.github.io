@@ -1,107 +1,107 @@
 * {
-    margin : 0px;
-    padding: 0px;
-  }
-  
-  body {
-    text-align      : center;
-    background-color: #262C32;
-    font-family     : "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Yu Gothic", "メイリオ", "Meiryo";
-  }
-  
-  #top_image {
-    margin-bottom   : 12px;
-    background-color: #FFFFFF;
-  }
-  
-  #QRShare_graphic {
-    width: 50%;
-  }
-  
-  #catch_copy {
-    padding: 12px;
-    color  : #FFFFFF;
-  }
-  
-  #icon_google_play {
-    width : 20%;
-    height: auto;
-  }
-  
-  .top_screen p {
-    font-weight: 500;
-    color: #FFFFFF;
-  }
-  
-  .top_screen img {
-    margin: 10px;
-    width : 25%;
-    height: auto;
-  }
-  
-  .container {
-    padding   : 12px;
-    background: #262C32;
-    text-align: center;
-    word-wrap : break-word;
-  }
-  
-  .container ul {
-    margin         : 0;
-    display        : inline-block;
-    flex-flow      : row wrap;
-    justify-content: center;
-    list-style     : none;
-    border         : none;
-  }
-  
-  .container ul li {
-    padding   : 40px;
-    width     : 320px;
-    transition: box-shadow 0.3s;
-  }
-  
-  .container ul li span {
-    font-size : 2.6em;
-    display   : block;
-    transition: color 0.3s;
-    color     : #FFFFFF;
-  }
-  
-  .container ul li span:before,
-  .container ul li span:after {
-    position: static;
-  }
-  
-  .container ul li .title {
-    color        : #FFFFFF;
-    display      : inline-block;
-    text-align   : center;
-    text-indent  : 0em;
-    margin-bottom: 40px;
-    font-size    : 24px;
-    font-weight  : 100;
-    transition   : color 0.3s;
-  }
-  
-  .container ul li .title:after {
-    content   : "";
-    position  : relative;
-    left      : 50%;
-    top       : 20px;
-    transform : translateX(-50%);
-    display   : block;
-    width     : 40px;
-    height    : 1px;
-    background: #FFFFFF;
-    transition: width 0.3s;
-  }
-  
-  .container ul li p {
-    color      : #FFFFFF;
-    text-align : left;
-    text-indent: 1em;
-    font-size  : 16px;
-    line-height: 26px;
-    transition : color 0.3s;
-  }
+  margin : 0px;
+  padding: 0px;
+}
+
+body {
+  text-align      : center;
+  background-color: #262C32;
+  font-family     : "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Yu Gothic", "メイリオ", "Meiryo";
+}
+
+#top_image {
+  margin-bottom   : 12px;
+  background-color: #FFFFFF;
+}
+
+#QRShare_graphic {
+  width: 50%;
+}
+
+#catch_copy {
+  padding: 12px;
+  color  : #FFFFFF;
+}
+
+#icon_google_play {
+  width : 20%;
+  height: auto;
+}
+
+.top_screen p {
+  font-weight: 500;
+  color      : #FFFFFF;
+}
+
+.top_screen img {
+  margin: 10px;
+  width : 25%;
+  height: auto;
+}
+
+.container {
+  padding   : 12px;
+  background: #262C32;
+  text-align: center;
+  word-wrap : break-word;
+}
+
+.container ul {
+  margin         : 0;
+  display        : inline-block;
+  flex-flow      : row wrap;
+  justify-content: center;
+  list-style     : none;
+  border         : none;
+}
+
+.container ul li {
+  padding   : 40px;
+  width     : 320px;
+  transition: box-shadow 0.3s;
+}
+
+.container ul li span {
+  font-size : 2.6em;
+  display   : block;
+  transition: color 0.3s;
+  color     : #FFFFFF;
+}
+
+.container ul li span:before,
+.container ul li span:after {
+  position: static;
+}
+
+.container ul li .title {
+  color        : #FFFFFF;
+  display      : inline-block;
+  text-align   : center;
+  text-indent  : 0em;
+  margin-bottom: 40px;
+  font-size    : 24px;
+  font-weight  : 100;
+  transition   : color 0.3s;
+}
+
+.container ul li .title:after {
+  content   : "";
+  position  : relative;
+  left      : 50%;
+  top       : 20px;
+  transform : translateX(-50%);
+  display   : block;
+  width     : 40px;
+  height    : 1px;
+  background: #FFFFFF;
+  transition: width 0.3s;
+}
+
+.container ul li p {
+  color      : #FFFFFF;
+  text-align : left;
+  text-indent: 1em;
+  font-size  : 16px;
+  line-height: 26px;
+  transition : color 0.3s;
+}
