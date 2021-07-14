@@ -19,6 +19,97 @@ body {
     width: 30%;
     height: auto;
 }
-#memory_graphic{
-    width: 50%;
+
+.app_image_container {
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 512px;
+    box-shadow: none !important;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-box-sizing: padding-box;
+    box-sizing: padding-box;
+}
+.app_image_container img {
+    max-width: 100%;
+    vertical-align: top;
+}
+.app_image_container .border {
+    position: absolute;
+    opacity: 0.45;
+}
+.app_image_container .border:before,
+.app_image_container .border:after,
+.app_image_container .border div:before,
+.app_image_container .border div:after {
+    background-color: #4B4B4B;
+    position: absolute;
+    content: "";
+    display: block;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.app_image_container .border:before,
+.app_image_container .border:after {
+    width: 0;
+    height: 1px;
+}
+.app_image_container .border div:before,
+.app_image_container .border div:after {
+    width: 1px;
+    height: 0;
+}
+.app_image_container .border.first {
+    left: 0;
+    top: 0;
+    right: 12px;
+    bottom: 12px;
+}
+.app_image_container .border.first:before,
+.app_image_container .border.first div:before {
+    left: 0;
+    top: 0;
+}
+.app_image_container .border.first:after,
+.app_image_container .border.first div:after {
+    bottom: 0;
+    right: 0;
+}
+.app_image_container .border.second {
+    left: 12px;
+    top: 12px;
+    right: 0;
+    bottom: 0;
+}
+.app_image_container .border.second:before,
+.app_image_container .border.second div:before {
+    right: 0;
+    top: 0;
+}
+.app_image_container .border.second:after,
+.app_image_container .border.second div:after {
+    bottom: 0;
+    left: 0;
+}
+.app_image_container a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+}
+.app_image_container:hover .border:before,
+.app_image_container.hover .border:before,
+.app_image_container:hover .border:after,
+.app_image_container.hover .border:after {
+    width: 100%;
+}
+.app_image_container:hover .border div:before,
+.app_image_container.hover .border div:before,
+.app_image_container:hover .border div:after,
+.app_image_container.hover .border div:after {
+    height: 100%;
 }
