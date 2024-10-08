@@ -105,3 +105,12 @@ body {
   line-height: 26px;
   transition : color 0.3s;
 }
+
+.footer ul li p {
+  color      : #FFFFFF;
+  text-align : center;
+  text-indent: 1em;
+  font-size  : 16px;
+  line-height: 26px;
+  transition : color 0.3s;
+}
